@@ -1,0 +1,30 @@
+*{
+    margin:0px;
+    padding:75px;
+    box-sizing:border-box;
+}
+nav{
+    width:100%;
+    height:75px;
+    line-height:75px;
+    position:0px 100px;
+    position:flex;
+    background-image:linear-gradient(#033747,#012733);
+
+}
+nav.logo{
+    font-size:30px;
+    font-weight:bold;
+    float:left;
+    color:white;
+    text-transform:uppercase;
+    letter-spacing:1.5px;
+    cursor:pointer;
+}
+nav ul{
+    float: right;
+}
+.li{
+    display:inline-block;
+    list-style:none;
+}
